@@ -88,7 +88,7 @@ function playerHasWon() {
   return false;
 }
 
-restartBtn.addEventListener("click", restart);
+restartBtn.addEventListener("click", restart); //nếu restart có () thì là gọi hàm mà gọi hàm thì chỉ gọi 1 lần nên restart không có () để mỗi lần click thì lại thực hiện chức năng
 
 function restart() {
   SPACES.fill(null);
@@ -104,4 +104,5 @@ function restart() {
   currentPlayer = X_TEXT;
 }
 
-startGame();
+startGame(); //ở đây start có () nên chỉ gọi hàm một lần không giống restart
+console.log("Test git ");
