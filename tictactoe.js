@@ -105,4 +105,4 @@ function restart() {
 }
 
 startGame(); //ở đây start có () nên chỉ gọi hàm một lần không giống restart
-console.log("Test git ");
+
